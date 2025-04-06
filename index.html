@@ -486,9 +486,8 @@
 
         <div class="subscribe-container">
           <p class="subscribe-text">Subscribe</p>
-          <div class="subscribe-input-container">
-            <form class="subscribe-form">
-              <label for="subscribe-label"></label>
+          <form class="subscribe-form">
+            <label for="subscribe-input" class="subscribe-label">
               <input
                 type="email"
                 name="subscribe-user-email"
@@ -496,16 +495,17 @@
                 placeholder="E-mail"
                 class="subscribe-input"
               />
-              <div class="subscribe-button-container">
-                <button type="button" class="subscribe-button">
-                  Subscribe
-                  <svg class="subscribe-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-send"></use>
-                  </svg>
-                </button>
-              </div>
-            </form>
-          </div>
+            </label>
+
+            <div class="subscribe-button-container">
+              <button type="button" class="subscribe-button">
+                Subscribe
+                <svg class="subscribe-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
