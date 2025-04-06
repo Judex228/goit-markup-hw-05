@@ -507,6 +507,11 @@ img {
   gap: 24px;
 }
 
+.subscribe-input:focus {
+  outline: none;
+  border-color: #4d5ae5;
+}
+
 .subscribe-button {
   display: flex;
   align-items: center;
@@ -681,8 +686,6 @@ img {
 }
 
 .checkbox-label {
-  display: flex;
-  align-items: center;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
@@ -711,12 +714,9 @@ img {
   fill: transparent;
 }
 
-.modal-checkbox:checked .non-active-checkbox {
+.modal-checkbox:checked + .checkbox-label > .non-active-checkbox {
   background-color: #404bbf;
-  border: 1px solid #404bbf;
-}
-
-.modal-checkbox:checked .checkbox-icon {
+  border: none;
   fill: #f4f4fd;
 }
 
