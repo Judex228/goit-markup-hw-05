@@ -471,6 +471,10 @@ img {
   border: 1px solid #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   padding-left: 16px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
 
 .subscribe-button {
@@ -493,7 +497,7 @@ img {
 .subscribe-input::placeholder {
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
   font-size: 12px;
 }
 
