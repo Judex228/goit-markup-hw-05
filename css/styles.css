@@ -446,7 +446,7 @@ img {
 }
 
 .footer-icon-container {
-  margin-right: 80px;
+  margin-right: 56px;
 }
 
 .footer-icon-link:hover,
@@ -461,6 +461,7 @@ img {
   color: #fff;
   margin-bottom: 16px;
   text-align: start;
+  margin-left: 24px;
 }
 
 .subscribe-input {
@@ -471,7 +472,6 @@ img {
   border: 1px solid #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   padding-left: 16px;
-  margin-right: 24px;
 }
 
 .subscribe-button {
@@ -498,10 +498,9 @@ img {
   font-size: 12px;
 }
 
-.subscribe-input-container {
+.subscribe-form {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  gap: 24px;
 }
 
 .subscribe-button {
